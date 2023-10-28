@@ -1,0 +1,48 @@
+{
+  "name": "react-markdown-rtl",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "@types/react": ">=18",
+    "react": ">=18"
+  },
+  "description": "Markdown editor and parser components for React. Supports right-to-left.",
+  "package-name": "react-markdown-rtl",
+  "git repository": "https://github.com/OrenSayag/react-markdown-rtl",
+  "keywords": "markdown, react, editor, rtl",
+  "author": "Oren Sayag",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "react": ">=18",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "rollup": "^4.1.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^3.3.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.0.2"
+  }
+}
