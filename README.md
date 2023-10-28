@@ -39,13 +39,13 @@ export default App;
 
 symbol | meaning
 -- | --
-# text| xl title
-## text| l title
-### text| m title
-**text** | bold
-*text* | italic
-++text++ | rtl
---text-- | ltr
-~~text~~ | strike-through
-_text_ | underline
+| # text | xl title
+| ## text | l title
+| ### text | m title
+| \*\*text** | bold
+| \*text* | italic
+| ++text++ | rtl
+| --text-- | ltr
+| \~~text~~ | strike-through
+| \_text_ | underline
 
