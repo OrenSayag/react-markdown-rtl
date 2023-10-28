@@ -16,6 +16,7 @@ _In this example, we use tailwindcss to style the package's components, which co
 ```
 import {useState} from 'react'
 import {MDEditor, MDRenderer} from "react-markdown-rtl";
+import Switch from "./components/ui/Switch";
 
 function App() {
     const [content, setContent] = useState('')
@@ -24,15 +25,19 @@ function App() {
 
   return (
     <>
-      <div>
-          <MDEditor className={"w-[50vw] h-96 outline-none"} onSwitchDir={onSwitchDir} isRtl={dir==='rtl'} onChange={(e)=>setContent(e.target.value)} />
-          <MDRenderer className={"w-[50vw]"}  dir={dir} content={content} />
+      <div className={"w-[100vw] flex items-center flex-col gap-4"}>
+          <div>
+            <span>RTL</span>
+            <Switch value={dir ==='rtl'} onChange={onSwitchDir} />
+          </div>
+          <MDEditor className={"w-[50vw] h-96 outline-none"} isRtl={dir==='rtl'} onChange={(e)=>setContent(e.target.value)} />
+          <MDRenderer className={"w-[50vw] border-2 rounded-md border-white p-4 "}  dir={dir} content={content} />
       </div>
     </>
   )
 }
 
-export default App;
+export default App
 ```
 
 ## Operators
