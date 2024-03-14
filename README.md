@@ -53,4 +53,7 @@ symbol | meaning
 | --text-- | ltr
 | \~~text~~ | strike-through
 | \_text_ | underline
-
+| \{RED}text{RED} | red color
+| \{BLUE}text{BLUE} | blue color
+| \{GREEN}text{GREEN} | green color
+| \{YELLOW}text{YELLOW} | yellow color

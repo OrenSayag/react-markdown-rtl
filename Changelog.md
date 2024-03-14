@@ -5,3 +5,8 @@
 ## 1.0.12
 
 - Bugfix: Removed package.json `type` property 
+
+
+## 1.1.0
+
+- Added basic colors
