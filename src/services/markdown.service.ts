@@ -1,4 +1,5 @@
 export const mdToHtml = (md: string): string => {
+  if(!md && md!=='') return '';
   const toHTML = md
       .replace(/^### (.*$)/gim, "<h3 style='font-size: 1.5rem; line-height: 2rem;'>$1</h3>") // h3 tag
       .replace(/^## (.*$)/gim, "<h2 style='font-size: 2.25rem; line-height: 2.5rem;'>$1</h2>") // h2 tag
