@@ -10,3 +10,7 @@
 ## 1.1.0
 
 - Added basic colors
+
+## 1.1.12
+
+- bugfix: italic style overlapped with bold style
