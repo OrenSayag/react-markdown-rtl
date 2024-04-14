@@ -1,7 +1,7 @@
 {
   "name": "react-markdown-rtl",
   "private": false,
-  "version": "1.1.12",
+  "version": "1.1.13",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   "package-name": "react-markdown-rtl",
   "git repository": "https://github.com/OrenSayag/react-markdown-rtl",
   "homepage": "https://github.com/OrenSayag/react-markdown-rtl",
-  "keywords": "markdown, react, editor, rtl",
+  "keywords": ["markdown, react, editor, rtl"],
   "author": "Oren Sayag",
   "license": "ISC",
   "scripts": {

@@ -57,3 +57,4 @@ symbol | meaning
 | \{BLUE}text{BLUE} | blue color
 | \{GREEN}text{GREEN} | green color
 | \{YELLOW}text{YELLOW} | yellow color
+| \{#somehex}text{#somehex} | dynamic hex color

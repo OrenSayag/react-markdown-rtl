@@ -14,3 +14,8 @@
 ## 1.1.12
 
 - bugfix: italic style overlapped with bold style
+
+## 1.1.13
+
+- bugfix: md rendering bugfix
+- feature: added dynamic hex color support
